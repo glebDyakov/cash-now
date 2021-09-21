@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#6200EA</color>
+    <color name="purple_500">#5502C8</color>
+    <color name="purple_700">#5502C8</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteFade">#20FFFFFF</color>
+    <color name="lightGray">#F9F9F9</color>
+    <color name="mediumGray">#D1D1D1</color>
+    <color name="lightMediumGray">#80D1D1D1</color>
+    <color name="darkGray">#4B4B4B</color>
+    <color name="dark">#313C44</color>
+    <color name="darker">#151B20</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF4646</color>
+    <color name="yellow">#FFC114</color>
+    <color name="green">#00C980</color>
+
+    <color name="backgroundColor">@color/lightGray</color>
+    <color name="navigation_color">@color/lightGray</color>
+    <color name="bottomNavItemColor">@color/purple_500</color>
+
+    <!--Light Theme-->
+    <color name="bottomColor">@color/purple_500</color>
+    <color name="placeHolderColor">@color/mediumGray</color>
+    <color name="chipColor">@color/darkGray</color>
+
+
+
+    //chip
+    <color name="checkedChipBackgroundColor">#206200EA</color>
+    <color name="ChipBackgroundColor">@color/lightGray</color>
+    <color name="checkedChipTextColor">@color/purple_500</color>
+    <color name="chipTextColor">@color/darkGray</color>
+    // Custom CardView Style
+    <color name="stroke_color">@color/lightMediumGray</color>
+    <color name="cardBackgroundColor">@color/white</color>
+    <color name="cardBackgroundLightColor">#106200EA</color>
+    <color name="titleColor">@color/darker</color>
+    <color name="descriptionColor">@color/darkGray</color>
+
+    <color name="statusActionBarColor">@color/purple_700</color>
+    <color name="contextualStatueBarColor">@color/darker</color>
+    <color name="contextualActionBarColo">@color/dark</color>
+    <color name="actionBarBackgroundColor">@color/purple_500</color>
+</resources>
