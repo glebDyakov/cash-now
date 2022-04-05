@@ -20,12 +20,15 @@ All Concept Added to This Project
 - REST API
 - Client 
 - Server Communication
-- Send HTTP Request- Parse HTTP Response
+- Send HTTP Request
+- Parse HTTP Response
 - Dark and Light Theme
 - Night Mode
 - Motion Layout
-- Material Components- Material Design
-- Create Shimmer Effect- Database Inspector
+- Material Components
+- Material Design
+- Create Shimmer Effect
+- Database Inspector
 - ViewPager
 - Create Contextual Action Mode
 - Share Data with Other Apps
