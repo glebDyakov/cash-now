@@ -10,7 +10,8 @@ All Concept Added to This Project
 - Kotlin- Kotlin Coroutines
 - Android Architecture Component
 - Navigation Component
-- DataStore Preferences- Data Binding
+- DataStore Preferences
+- Data Binding
 - ViewModel
 - LiveData
 - Flow
