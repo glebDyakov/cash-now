@@ -7,7 +7,7 @@ All Concept Added to This Project
 - Retrofit
 - Offline Cache
 - Local & Remote Data Sources
-- Kotlin- Kotlin Coroutines
+- Kotlin Coroutines
 - Android Architecture Component
 - Navigation Component
 - DataStore Preferences
