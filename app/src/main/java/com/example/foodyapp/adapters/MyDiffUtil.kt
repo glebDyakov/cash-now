@@ -1,7 +1,7 @@
-package com.example.foodyapp.adapters
+package cash.now.cshnw.adapters
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.foodyapp.models.Result
+import cash.now.cshnw.models.Result
 
 class MyDiffUtil <T>(
     private val oldList: List<T>,

@@ -1,9 +1,9 @@
-package com.example.foodyapp.data
+package cash.now.cshnw.data
 
-import com.example.foodyapp.database.RecipesDao
-import com.example.foodyapp.database.entitiy.FavoriteEntity
-import com.example.foodyapp.database.entitiy.FoodJokeEntity
-import com.example.foodyapp.database.entitiy.RecipesEntity
+import cash.now.cshnw.database.RecipesDao
+import cash.now.cshnw.database.entitiy.FavoriteEntity
+import cash.now.cshnw.database.entitiy.FoodJokeEntity
+import cash.now.cshnw.database.entitiy.RecipesEntity
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

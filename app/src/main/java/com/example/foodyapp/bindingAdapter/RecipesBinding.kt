@@ -1,14 +1,14 @@
-package com.example.foodyapp.bindingAdapter
+package cash.now.cshnw.bindingAdapter
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.databinding.BindingAdapter
-import com.example.foodyapp.database.entitiy.FavoriteEntity
-import com.example.foodyapp.database.entitiy.RecipesEntity
-import com.example.foodyapp.models.FoodRecipe
-import com.example.foodyapp.utils.NetworkResult
+import cash.now.cshnw.database.entitiy.FavoriteEntity
+import cash.now.cshnw.database.entitiy.RecipesEntity
+import cash.now.cshnw.models.FoodRecipe
+import cash.now.cshnw.utils.NetworkResult
 
 class RecipesBinding {
     companion object {

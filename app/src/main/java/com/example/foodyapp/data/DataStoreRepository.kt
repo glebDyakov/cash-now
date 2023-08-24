@@ -1,17 +1,17 @@
-package com.example.foodyapp.data
+package cash.now.cshnw.data
 
 import android.content.Context
 import android.util.Log
 import androidx.datastore.DataStore
 import androidx.datastore.preferences.*
-import com.example.foodyapp.utils.Constants.Companion.DEFAULT_DIET_TYPE
-import com.example.foodyapp.utils.Constants.Companion.DEFAULT_MEAL_TYPE
-import com.example.foodyapp.utils.Constants.Companion.PREFERENCES_BACK_ONLINE
-import com.example.foodyapp.utils.Constants.Companion.PREFERENCES_DIET_TYPE
-import com.example.foodyapp.utils.Constants.Companion.PREFERENCES_DIET_TYPE_ID
-import com.example.foodyapp.utils.Constants.Companion.PREFERENCES_MEAL_TYPE
-import com.example.foodyapp.utils.Constants.Companion.PREFERENCES_MEAL_TYPE_ID
-import com.example.foodyapp.utils.Constants.Companion.PREFERENCES_NAME
+import cash.now.cshnw.utils.Constants.Companion.DEFAULT_DIET_TYPE
+import cash.now.cshnw.utils.Constants.Companion.DEFAULT_MEAL_TYPE
+import cash.now.cshnw.utils.Constants.Companion.PREFERENCES_BACK_ONLINE
+import cash.now.cshnw.utils.Constants.Companion.PREFERENCES_DIET_TYPE
+import cash.now.cshnw.utils.Constants.Companion.PREFERENCES_DIET_TYPE_ID
+import cash.now.cshnw.utils.Constants.Companion.PREFERENCES_MEAL_TYPE
+import cash.now.cshnw.utils.Constants.Companion.PREFERENCES_MEAL_TYPE_ID
+import cash.now.cshnw.utils.Constants.Companion.PREFERENCES_NAME
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.android.scopes.ActivityRetainedScoped
 import kotlinx.coroutines.flow.Flow

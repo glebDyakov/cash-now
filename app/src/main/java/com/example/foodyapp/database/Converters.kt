@@ -1,9 +1,9 @@
-package com.example.foodyapp.database
+package cash.now.cshnw.database
 
 import androidx.room.TypeConverter
-import com.example.foodyapp.database.entitiy.FavoriteEntity
-import com.example.foodyapp.models.FoodRecipe
-import com.example.foodyapp.models.Result
+import cash.now.cshnw.database.entitiy.FavoriteEntity
+import cash.now.cshnw.models.FoodRecipe
+import cash.now.cshnw.models.Result
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

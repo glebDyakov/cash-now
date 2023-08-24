@@ -1,4 +1,4 @@
-package com.example.foodyapp.ui.fragments.foodjokes
+package cash.now.cshnw.ui.fragments.foodjokes
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,11 +8,11 @@ import androidx.fragment.app.Fragment
 import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.example.foodyapp.R
-import com.example.foodyapp.databinding.FragmentFoodJokeBinding
-import com.example.foodyapp.utils.Constants.Companion.API_KEY
-import com.example.foodyapp.utils.NetworkResult
-import com.example.foodyapp.viewmodels.MainViewModel
+import cash.now.cshnw.R
+import cash.now.cshnw.databinding.FragmentFoodJokeBinding
+import cash.now.cshnw.utils.Constants.Companion.API_KEY
+import cash.now.cshnw.utils.NetworkResult
+import cash.now.cshnw.viewmodels.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 

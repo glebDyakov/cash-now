@@ -1,13 +1,13 @@
-package com.example.foodyapp.bindingAdapter
+package cash.now.cshnw.bindingAdapter
 
 import android.view.View
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
-import com.example.foodyapp.database.entitiy.FoodJokeEntity
-import com.example.foodyapp.models.FoodJoke
-import com.example.foodyapp.utils.NetworkResult
-import com.example.foodyapp.viewmodels.MainViewModel
+import cash.now.cshnw.database.entitiy.FoodJokeEntity
+import cash.now.cshnw.models.FoodJoke
+import cash.now.cshnw.utils.NetworkResult
+import cash.now.cshnw.viewmodels.MainViewModel
 import com.google.android.material.card.MaterialCardView
 
 class FoodJokeBinding {

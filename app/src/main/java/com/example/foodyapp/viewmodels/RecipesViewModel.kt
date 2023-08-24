@@ -1,4 +1,4 @@
-package com.example.foodyapp.viewmodels
+package cash.now.cshnw.viewmodels
 
 import android.app.Application
 import android.widget.Toast
@@ -6,18 +6,18 @@ import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.foodyapp.data.DataStoreRepository
-import com.example.foodyapp.utils.Constants.Companion.API_KEY
-import com.example.foodyapp.utils.Constants.Companion.DEFAULT_DIET_TYPE
-import com.example.foodyapp.utils.Constants.Companion.DEFAULT_MEAL_TYPE
-import com.example.foodyapp.utils.Constants.Companion.DEFAULT_RECIPES_NUMBER
-import com.example.foodyapp.utils.Constants.Companion.QUERY_ADD_RECIPES_INFORMATION
-import com.example.foodyapp.utils.Constants.Companion.QUERY_API_KEY
-import com.example.foodyapp.utils.Constants.Companion.QUERY_DIET
-import com.example.foodyapp.utils.Constants.Companion.QUERY_FILL_INGREDIENTS
-import com.example.foodyapp.utils.Constants.Companion.QUERY_SEARCH
-import com.example.foodyapp.utils.Constants.Companion.QUERY_NUMBER
-import com.example.foodyapp.utils.Constants.Companion.QUERY_TYPE
+import cash.now.cshnw.data.DataStoreRepository
+import cash.now.cshnw.utils.Constants.Companion.API_KEY
+import cash.now.cshnw.utils.Constants.Companion.DEFAULT_DIET_TYPE
+import cash.now.cshnw.utils.Constants.Companion.DEFAULT_MEAL_TYPE
+import cash.now.cshnw.utils.Constants.Companion.DEFAULT_RECIPES_NUMBER
+import cash.now.cshnw.utils.Constants.Companion.QUERY_ADD_RECIPES_INFORMATION
+import cash.now.cshnw.utils.Constants.Companion.QUERY_API_KEY
+import cash.now.cshnw.utils.Constants.Companion.QUERY_DIET
+import cash.now.cshnw.utils.Constants.Companion.QUERY_FILL_INGREDIENTS
+import cash.now.cshnw.utils.Constants.Companion.QUERY_SEARCH
+import cash.now.cshnw.utils.Constants.Companion.QUERY_NUMBER
+import cash.now.cshnw.utils.Constants.Companion.QUERY_TYPE
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch

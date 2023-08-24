@@ -1,4 +1,4 @@
-package com.example.foodyapp.utils
+package cash.now.cshnw.utils
 
 import android.content.Context
 import android.net.ConnectivityManager

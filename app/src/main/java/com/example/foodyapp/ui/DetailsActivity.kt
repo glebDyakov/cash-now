@@ -1,4 +1,4 @@
-package com.example.foodyapp.ui
+package cash.now.cshnw.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,14 +13,14 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.navArgs
 import androidx.viewpager.widget.ViewPager
 import androidx.viewpager2.widget.ViewPager2
-import com.example.foodyapp.R
-import com.example.foodyapp.adapters.PagerAdapter
-import com.example.foodyapp.database.entitiy.FavoriteEntity
-import com.example.foodyapp.ui.fragments.ingeredients.IngredientsFragment
-import com.example.foodyapp.ui.fragments.instruction.InstructionsFragment
-import com.example.foodyapp.ui.fragments.overview.OverviewFragment
-import com.example.foodyapp.utils.Constants.Companion.RECIPES_RESULT
-import com.example.foodyapp.viewmodels.MainViewModel
+import cash.now.cshnw.R
+import cash.now.cshnw.adapters.PagerAdapter
+import cash.now.cshnw.database.entitiy.FavoriteEntity
+import cash.now.cshnw.ui.fragments.ingeredients.IngredientsFragment
+import cash.now.cshnw.ui.fragments.instruction.InstructionsFragment
+import cash.now.cshnw.ui.fragments.overview.OverviewFragment
+import cash.now.cshnw.utils.Constants.Companion.RECIPES_RESULT
+import cash.now.cshnw.viewmodels.MainViewModel
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator

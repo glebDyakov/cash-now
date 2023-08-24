@@ -1,4 +1,4 @@
-package com.example.foodyapp.adapters
+package cash.now.cshnw.adapters
 
 
 import android.annotation.SuppressLint
@@ -9,11 +9,11 @@ import androidx.fragment.app.FragmentActivity
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.foodyapp.R
-import com.example.foodyapp.database.entitiy.FavoriteEntity
-import com.example.foodyapp.databinding.FavoritRecipesRowLayoutBinding
-import com.example.foodyapp.ui.fragments.favorit.FavoriteRecipesFragmentDirections
-import com.example.foodyapp.viewmodels.MainViewModel
+import cash.now.cshnw.R
+import cash.now.cshnw.database.entitiy.FavoriteEntity
+import cash.now.cshnw.databinding.FavoritRecipesRowLayoutBinding
+import cash.now.cshnw.ui.fragments.favorit.FavoriteRecipesFragmentDirections
+import cash.now.cshnw.viewmodels.MainViewModel
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.snackbar.Snackbar
 

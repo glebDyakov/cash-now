@@ -1,14 +1,14 @@
-package com.example.foodyapp.ui.fragments.favorit
+package cash.now.cshnw.ui.fragments.favorit
 
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.foodyapp.R
-import com.example.foodyapp.adapters.FavoriteRecipesAdapter
-import com.example.foodyapp.databinding.FragmentFavoriteRecipesBinding
-import com.example.foodyapp.viewmodels.MainViewModel
+import cash.now.cshnw.R
+import cash.now.cshnw.adapters.FavoriteRecipesAdapter
+import cash.now.cshnw.databinding.FragmentFavoriteRecipesBinding
+import cash.now.cshnw.viewmodels.MainViewModel
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 

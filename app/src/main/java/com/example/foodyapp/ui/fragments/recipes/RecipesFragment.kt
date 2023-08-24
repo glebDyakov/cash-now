@@ -1,4 +1,4 @@
-package com.example.foodyapp.ui.fragments.recipes
+package cash.now.cshnw.ui.fragments.recipes
 
 import android.app.Activity
 import android.content.Context
@@ -15,14 +15,14 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.foodyapp.R
-import com.example.foodyapp.viewmodels.MainViewModel
-import com.example.foodyapp.adapters.RecipesAdapter
-import com.example.foodyapp.databinding.FragmentRecipesBinding
-import com.example.foodyapp.utils.NetworkListener
-import com.example.foodyapp.utils.NetworkResult
-import com.example.foodyapp.utils.observeOnce
-import com.example.foodyapp.viewmodels.RecipesViewModel
+import cash.now.cshnw.R
+import cash.now.cshnw.viewmodels.MainViewModel
+import cash.now.cshnw.adapters.RecipesAdapter
+import cash.now.cshnw.databinding.FragmentRecipesBinding
+import cash.now.cshnw.utils.NetworkListener
+import cash.now.cshnw.utils.NetworkResult
+import cash.now.cshnw.utils.observeOnce
+import cash.now.cshnw.viewmodels.RecipesViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.collect

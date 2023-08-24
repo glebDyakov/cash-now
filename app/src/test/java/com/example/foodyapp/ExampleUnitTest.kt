@@ -1,4 +1,4 @@
-package com.example.foodyapp
+package cash.now.cshnw
 
 import org.junit.Test
 

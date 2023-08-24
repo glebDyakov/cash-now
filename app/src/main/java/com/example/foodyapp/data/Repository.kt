@@ -1,4 +1,4 @@
-package com.example.foodyapp.data
+package cash.now.cshnw.data
 
 import dagger.hilt.android.scopes.ActivityRetainedScoped
 import javax.inject.Inject

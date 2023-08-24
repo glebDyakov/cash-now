@@ -7,7 +7,7 @@
 
         <variable
             name="result"
-            type="com.example.foodyapp.models.Result" />
+            type="cash.now.cshnw.models.Result" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

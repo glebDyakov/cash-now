@@ -1,9 +1,9 @@
-package com.example.foodyapp.di
+package cash.now.cshnw.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.foodyapp.database.RecipesDataBase
-import com.example.foodyapp.utils.Constants.Companion.DATABASE_NAME
+import cash.now.cshnw.database.RecipesDataBase
+import cash.now.cshnw.utils.Constants.Companion.DATABASE_NAME
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

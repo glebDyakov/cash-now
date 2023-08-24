@@ -1,4 +1,4 @@
-package com.example.foodyapp.utils
+package cash.now.cshnw.utils
 
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData

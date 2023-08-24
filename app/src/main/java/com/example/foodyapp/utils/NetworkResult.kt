@@ -1,4 +1,4 @@
-package com.example.foodyapp.utils
+package cash.now.cshnw.utils
 
 sealed class NetworkResult<T>(
     val data: T? = null,

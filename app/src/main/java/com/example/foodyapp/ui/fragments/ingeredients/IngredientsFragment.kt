@@ -1,4 +1,4 @@
-package com.example.foodyapp.ui.fragments.ingeredients
+package cash.now.cshnw.ui.fragments.ingeredients
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.foodyapp.R
-import com.example.foodyapp.adapters.IngredientsAdapter
-import com.example.foodyapp.models.Result
-import com.example.foodyapp.utils.Constants.Companion.RECIPES_RESULT
+import cash.now.cshnw.R
+import cash.now.cshnw.adapters.IngredientsAdapter
+import cash.now.cshnw.models.Result
+import cash.now.cshnw.utils.Constants.Companion.RECIPES_RESULT
 
 
 class IngredientsFragment : Fragment() {

@@ -1,7 +1,7 @@
-package com.example.foodyapp.data.network
+package cash.now.cshnw.data.network
 
-import com.example.foodyapp.models.FoodJoke
-import com.example.foodyapp.models.FoodRecipe
+import cash.now.cshnw.models.FoodJoke
+import cash.now.cshnw.models.FoodRecipe
 import kotlinx.coroutines.flow.Flow
 import retrofit2.Response
 import retrofit2.http.GET

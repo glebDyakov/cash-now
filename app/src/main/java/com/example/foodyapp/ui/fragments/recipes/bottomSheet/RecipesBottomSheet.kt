@@ -1,4 +1,4 @@
-package com.example.foodyapp.ui.fragments.recipes.bottomSheet
+package cash.now.cshnw.ui.fragments.recipes.bottomSheet
 
 import android.os.Bundle
 import android.util.Log
@@ -10,11 +10,11 @@ import androidx.core.view.get
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.navigation.fragment.findNavController
-import com.example.foodyapp.R
-import com.example.foodyapp.databinding.FragmentRecipesBinding
-import com.example.foodyapp.databinding.RecipesBottomSheetBinding
-import com.example.foodyapp.utils.Constants.Companion.DEFAULT_MEAL_TYPE
-import com.example.foodyapp.viewmodels.RecipesViewModel
+import cash.now.cshnw.R
+import cash.now.cshnw.databinding.FragmentRecipesBinding
+import cash.now.cshnw.databinding.RecipesBottomSheetBinding
+import cash.now.cshnw.utils.Constants.Companion.DEFAULT_MEAL_TYPE
+import cash.now.cshnw.viewmodels.RecipesViewModel
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup

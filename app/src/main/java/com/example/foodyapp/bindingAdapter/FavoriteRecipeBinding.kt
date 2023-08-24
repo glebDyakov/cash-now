@@ -1,12 +1,12 @@
-package com.example.foodyapp.bindingAdapter
+package cash.now.cshnw.bindingAdapter
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.foodyapp.adapters.FavoriteRecipesAdapter
-import com.example.foodyapp.database.entitiy.FavoriteEntity
+import cash.now.cshnw.adapters.FavoriteRecipesAdapter
+import cash.now.cshnw.database.entitiy.FavoriteEntity
 import org.jsoup.Jsoup
 
 class FavoriteRecipeBinding {

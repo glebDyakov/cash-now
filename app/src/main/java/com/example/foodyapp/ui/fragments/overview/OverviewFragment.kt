@@ -1,4 +1,4 @@
-package com.example.foodyapp.ui.fragments.overview
+package cash.now.cshnw.ui.fragments.overview
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import coil.load
-import com.example.foodyapp.R
-import com.example.foodyapp.databinding.FragmentOverviewBinding
-import com.example.foodyapp.models.Result
-import com.example.foodyapp.utils.Constants.Companion.RECIPES_RESULT
+import cash.now.cshnw.R
+import cash.now.cshnw.databinding.FragmentOverviewBinding
+import cash.now.cshnw.models.Result
+import cash.now.cshnw.utils.Constants.Companion.RECIPES_RESULT
 import org.jsoup.Jsoup
 
 class OverviewFragment : Fragment() {

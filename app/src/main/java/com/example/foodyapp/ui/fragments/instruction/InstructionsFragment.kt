@@ -1,4 +1,4 @@
-package com.example.foodyapp.ui.fragments.instruction
+package cash.now.cshnw.ui.fragments.instruction
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import com.example.foodyapp.R
-import com.example.foodyapp.models.Result
-import com.example.foodyapp.utils.Constants
+import cash.now.cshnw.R
+import cash.now.cshnw.models.Result
+import cash.now.cshnw.utils.Constants
 
 class InstructionsFragment : Fragment() {
 

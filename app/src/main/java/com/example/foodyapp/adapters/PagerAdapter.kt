@@ -1,4 +1,4 @@
-package com.example.foodyapp.adapters
+package cash.now.cshnw.adapters
 
 import android.os.Bundle
 import androidx.fragment.app.*

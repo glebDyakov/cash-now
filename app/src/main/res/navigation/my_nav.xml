@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/recipesFragment"
-        android:name="com.example.foodyapp.ui.fragments.recipes.RecipesFragment"
+        android:name="cash.now.cshnw.ui.fragments.recipes.RecipesFragment"
         android:label="Recipes"
         tools:layout="@layout/fragment_recipes" >
         <action
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/favoriteRecipesFragment"
-        android:name="com.example.foodyapp.ui.fragments.favorit.FavoriteRecipesFragment"
+        android:name="cash.now.cshnw.ui.fragments.favorit.FavoriteRecipesFragment"
         android:label="Favorites"
         tools:layout="@layout/fragment_favorite_recipes" >
         <action
@@ -32,12 +32,12 @@
     </fragment>
     <fragment
         android:id="@+id/foodJokeFragment"
-        android:name="com.example.foodyapp.ui.fragments.foodjokes.FoodJokeFragment"
+        android:name="cash.now.cshnw.ui.fragments.foodjokes.FoodJokeFragment"
         android:label="Food joke"
         tools:layout="@layout/fragment_food_joke" />
     <dialog
         android:id="@+id/recipesBottomSheet"
-        android:name="com.example.foodyapp.ui.fragments.recipes.bottomSheet.RecipesBottomSheet"
+        android:name="cash.now.cshnw.ui.fragments.recipes.bottomSheet.RecipesBottomSheet"
         android:label="recipes_bottom_sheet"
         tools:layout="@layout/recipes_bottom_sheet" >
         <action
@@ -48,11 +48,11 @@
     </dialog>
     <activity
         android:id="@+id/detailsActivity"
-        android:name="com.example.foodyapp.ui.DetailsActivity"
+        android:name="cash.now.cshnw.ui.DetailsActivity"
         android:label="DetailsActivity"
         tools:layout="@layout/activity_details" >
         <argument
             android:name="result"
-            app:argType="com.example.foodyapp.models.Result" />
+            app:argType="cash.now.cshnw.models.Result" />
     </activity>
 </navigation>

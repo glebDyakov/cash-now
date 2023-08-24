@@ -1,4 +1,4 @@
-package com.example.foodyapp.adapters
+package cash.now.cshnw.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,9 +8,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.example.foodyapp.R
-import com.example.foodyapp.models.ExtendedIngredient
-import com.example.foodyapp.utils.Constants.Companion.BASE_IMAGE_URL
+import cash.now.cshnw.R
+import cash.now.cshnw.models.ExtendedIngredient
+import cash.now.cshnw.utils.Constants.Companion.BASE_IMAGE_URL
 import java.util.*
 
 class IngredientsAdapter : RecyclerView.Adapter<IngredientsAdapter.MyViewHolder>() {

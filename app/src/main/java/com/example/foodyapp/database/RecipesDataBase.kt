@@ -1,11 +1,11 @@
-package com.example.foodyapp.database
+package cash.now.cshnw.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.example.foodyapp.database.entitiy.FavoriteEntity
-import com.example.foodyapp.database.entitiy.FoodJokeEntity
-import com.example.foodyapp.database.entitiy.RecipesEntity
+import cash.now.cshnw.database.entitiy.FavoriteEntity
+import cash.now.cshnw.database.entitiy.FoodJokeEntity
+import cash.now.cshnw.database.entitiy.RecipesEntity
 
 @Database(entities = [RecipesEntity::class,FavoriteEntity::class,FoodJokeEntity::class], version = 4, exportSchema = false)
 @TypeConverters(Converters::class)

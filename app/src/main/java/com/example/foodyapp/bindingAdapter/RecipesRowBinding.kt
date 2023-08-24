@@ -1,4 +1,4 @@
-package com.example.foodyapp.bindingAdapter
+package cash.now.cshnw.bindingAdapter
 
 import android.util.Log
 import android.view.View
@@ -9,9 +9,9 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.BindingAdapter
 import androidx.navigation.findNavController
 import coil.load
-import com.example.foodyapp.R
-import com.example.foodyapp.models.Result
-import com.example.foodyapp.ui.fragments.recipes.RecipesFragmentDirections
+import cash.now.cshnw.R
+import cash.now.cshnw.models.Result
+import cash.now.cshnw.ui.fragments.recipes.RecipesFragmentDirections
 import org.jsoup.Jsoup
 
 @BindingAdapter("onClickListener")

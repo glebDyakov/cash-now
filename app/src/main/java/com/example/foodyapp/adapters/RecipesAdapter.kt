@@ -1,12 +1,12 @@
-package com.example.foodyapp.adapters
+package cash.now.cshnw.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.foodyapp.databinding.ItemViewBinding
-import com.example.foodyapp.models.FoodRecipe
-import com.example.foodyapp.models.Result
+import cash.now.cshnw.databinding.ItemViewBinding
+import cash.now.cshnw.models.FoodRecipe
+import cash.now.cshnw.models.Result
 
 class RecipesAdapter : RecyclerView.Adapter<RecipesAdapter.MyViewHolder>() {
 

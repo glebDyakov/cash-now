@@ -1,8 +1,8 @@
-package com.example.foodyapp.data
+package cash.now.cshnw.data
 
-import com.example.foodyapp.data.network.FoodRecipesApi
-import com.example.foodyapp.models.FoodJoke
-import com.example.foodyapp.models.FoodRecipe
+import cash.now.cshnw.data.network.FoodRecipesApi
+import cash.now.cshnw.models.FoodJoke
+import cash.now.cshnw.models.FoodRecipe
 import retrofit2.Response
 import javax.inject.Inject
 

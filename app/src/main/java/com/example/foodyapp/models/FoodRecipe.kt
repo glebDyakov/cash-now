@@ -1,4 +1,4 @@
-package com.example.foodyapp.models
+package cash.now.cshnw.models
 
 
 import com.google.gson.annotations.SerializedName

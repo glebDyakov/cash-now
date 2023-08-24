@@ -1,4 +1,4 @@
-package com.example.foodyapp.models
+package cash.now.cshnw.models
 
 
 import android.os.Parcelable

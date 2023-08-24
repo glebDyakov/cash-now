@@ -6,7 +6,7 @@
     <data>
 <variable
     name="bundle"
-    type="com.example.foodyapp.models.Result" />
+    type="cash.now.cshnw.models.Result" />
     </data>
 
     <androidx.constraintlayout.motion.widget.MotionLayout

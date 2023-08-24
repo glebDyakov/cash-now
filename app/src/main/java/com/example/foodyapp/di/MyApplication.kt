@@ -1,4 +1,4 @@
-package com.example.foodyapp.di
+package cash.now.cshnw.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

@@ -1,7 +1,7 @@
-package com.example.foodyapp.di
+package cash.now.cshnw.di
 
-import com.example.foodyapp.data.network.FoodRecipesApi
-import com.example.foodyapp.utils.Constants.Companion.BASE_URL
+import cash.now.cshnw.data.network.FoodRecipesApi
+import cash.now.cshnw.utils.Constants.Companion.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

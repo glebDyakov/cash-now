@@ -1,4 +1,4 @@
-package com.example.foodyapp.viewmodels
+package cash.now.cshnw.viewmodels
 
 import android.app.Application
 import android.content.Context
@@ -6,13 +6,13 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
-import com.example.foodyapp.data.Repository
-import com.example.foodyapp.database.entitiy.FavoriteEntity
-import com.example.foodyapp.database.entitiy.FoodJokeEntity
-import com.example.foodyapp.database.entitiy.RecipesEntity
-import com.example.foodyapp.models.FoodJoke
-import com.example.foodyapp.models.FoodRecipe
-import com.example.foodyapp.utils.NetworkResult
+import cash.now.cshnw.data.Repository
+import cash.now.cshnw.database.entitiy.FavoriteEntity
+import cash.now.cshnw.database.entitiy.FoodJokeEntity
+import cash.now.cshnw.database.entitiy.RecipesEntity
+import cash.now.cshnw.models.FoodJoke
+import cash.now.cshnw.models.FoodRecipe
+import cash.now.cshnw.utils.NetworkResult
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Response
